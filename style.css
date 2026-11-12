@@ -15,21 +15,6 @@ body {
     color: rgb(224, 75, 182);
 }
 
-header {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-header h1 {
-    font-size: 38px;
-    margin-bottom: 15px;
-}
-
-header p {
-    font-size: 17px;
-    color: #c5c5d8;
-}
-
 .container-cards {
     display: flex;
     justify-content: center;
@@ -68,13 +53,11 @@ header p {
     margin-top: auto;
 }
 
-
 .card:hover {
     transform: scale(1.05);
     background-color: rgb(83, 14, 126);
 }
 
-/* Responsividade */
 @media (max-width: 650px) {
     header h1 {
         font-size: 28px;
@@ -96,32 +79,6 @@ header p {
     border-radius: 10px;
 }
 
-/* Microondas */
-
-
-/* Cabeçalho */
-
-
-/* Menu */
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #ff69b4;
-}
-
-/* Conteúdo */
 main {
     max-width: 1000px;
     margin: 30px auto;
@@ -147,7 +104,6 @@ section p {
     line-height: 1.6;
 }
 
-
 header {
     text-align: center;
     padding: 25px 20px;
@@ -157,6 +113,11 @@ header {
 header h1 {
     font-size: 36px;
     margin-bottom: 25px;
+}
+
+header p {
+    font-size: 17px;
+    color: #c5c5d8;
 }
 
 nav {
@@ -180,8 +141,6 @@ nav a {
 nav a:hover {
     color: #ff69b4;
 }
-
-/* imagens dos cientistas*/
 
 .cientista {
     display: flex;
